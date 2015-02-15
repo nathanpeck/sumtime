@@ -1,0 +1,41 @@
+{
+  "name": "sumtime",
+  "version": "0.0.1",
+  "description": "Simple Nodes.js service for high volume data point sums and ranges",
+  "main": "./lib/sumtime",
+  "author": {
+    "name": "Nathan Peck",
+    "email": "nathan.peck1@gmail.com"
+  },
+  "dependencies": {
+    "moment": "2.9.0",
+    "async": "0.9.0",
+    "lodash": "3.2.0"
+  },
+  "devDependencies": {
+    "mocha":      "1.17.1",
+    "chai":       "1.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nathanpeck/sumtime.git"
+  },
+  "keywords": [
+    "sum",
+    "statistics",
+    "date",
+    "range",
+    "redis",
+    "high volume",
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/nathanpeck/sumtime/master/LICENSE"
+    }
+  ],
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec -s 100 ./tests/test.js"
+  }
+}
