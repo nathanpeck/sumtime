@@ -26,7 +26,7 @@
     "date",
     "range",
     "redis",
-    "high volume",
+    "high volume"
   ],
   "licenses": [
     {
@@ -36,6 +36,6 @@
   ],
   "readmeFilename": "README.md",
   "scripts": {
-    "test": "./node_modules/.bin/mocha -R spec -s 100 ./tests/test.js"
+    "test": "./node_modules/.bin/mocha -R spec -s 100 ./test/*"
   }
 }
