@@ -22,6 +22,7 @@ describe('Sumtime', function () {
     testSum = new SumTime(testStore);
 
     expect(testSum).to.be.an('object');
+    expect(testSum).to.respondTo('resolutionKey');
     expect(testSum).to.respondTo('resolutionKeys');
     expect(testSum).to.respondTo('increment');
     expect(testSum).to.respondTo('get');

@@ -10,7 +10,6 @@
     "trailing": true,
     "browser": true,
     "predef": [
-        "$",
         "FormBot",
         "socket",
         "confirm",
